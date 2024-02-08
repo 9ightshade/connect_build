@@ -39,3 +39,49 @@ background-color: rgb(128, 247, 128);
 .hero_info{
     text-align: center;
 }
+.signup_div > p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 30px;
+}
+form{
+    /* border: 2px red solid; */
+    padding: 2em 1em;
+    width: 50%;
+    background-color: green;
+    margin: 0 auto;
+    
+}
+.form_input{
+    width: 100%;
+    padding: 1em 1em;
+    margin-top: 1em;
+    border: none;
+    border-radius: 7px;
+    /* border: blue solid 2px; */
+}
+.login_btn{
+    color: white;
+    border-radius: 7px;
+    background-color: black;
+    padding: .8em 2.3em;
+    border: none;
+    margin-top: 1em;
+    width: 100%;
+}
+.sign_up_link{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    /* border: 2px solid red; */
+    width: 50%;
+    font-weight: 600;
+    margin: 0 auto;
+}
+.sign_up_link > a {
+    color: green;
+}
+.sign_up_link > a:hover{
+    color: rgb(4, 68, 4);
+}
