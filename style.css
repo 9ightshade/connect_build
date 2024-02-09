@@ -88,3 +88,37 @@ form{
 .sign_up_link > a:hover{
     color: rgb(4, 68, 4);
 }
+.services_list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.services_list > li{
+    /* border: 2px red solid; */
+    padding: 1em;
+    list-style: none;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: auto;
+   
+}
+.image_div{
+    /* border: 2px blue solid; */
+    height: 80%;
+width: 80%; 
+margin: 0 auto;   
+overflow-y: hidden;
+}
+.browse_collection{
+    text-align: center;
+    font-weight: 600;
+    margin: 1em 1em;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
